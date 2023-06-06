@@ -1,9 +1,9 @@
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS retype
+FROM node:20-slim AS retype
 
 WORKDIR /build
-COPY . /build
+COPY . .
 
-RUN dotnet tool install retypeapp --tool-path /bin
+RUN npm install --global retypeapp
 RUN retype build --output .docker-build/
 
 FROM busybox:1.35
