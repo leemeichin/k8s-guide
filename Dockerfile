@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS retype
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS retype
 
 WORKDIR /build
 COPY . /build
