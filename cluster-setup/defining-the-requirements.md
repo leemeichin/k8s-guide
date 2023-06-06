@@ -15,7 +15,18 @@ Before continuing though, let's run through the specification of the cluster to 
 - [x] The worker pool should scale up to a maximum of two instances
 - [x] Unattended upgrades should be enabled
 
-Once we create the configuration for this, we should expect to see two servers in the Hetzner Cloud console: one will be for the control plane, and another will be a worker node.
+Once we create the configuration for this, we should expect to see two servers in the Hetzner Cloud console: one will be for the control plane, and another will be a worker node. 
+
+```mermaid
+graph LR
+    subgraph workers[Worker Node Pool]
+      B[Worker 1]
+      C[Worker 2]
+      D[Worker <i>...n</i>]
+    end
+    
+    A[Control Plane] --> workers
+```
 
 
 !!!info :bulb: What's a control plane?
