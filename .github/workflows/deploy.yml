@@ -23,6 +23,13 @@ jobs:
         uses: docker/setup-buildx-action@v2
         with:
           platforms: linux/arm64
+      - name: Setup Dotnet
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 7.0.x
+      - name: Retype build
+        id: retype-build
+        uses: retypeapp/action-build@v3
       - name: Authenticate Docker
         uses: docker/login-action@v2
         with:
@@ -44,7 +51,8 @@ jobs:
         with:
           builder: ${{ steps.arm-builder.outputs.name }}
           push: true
-          context: .
+          file: ./Dockerfile
+          context: ${{ steps.retype-build.outputs.retype-output-path }}
           cache-from: ${{ env.DOCKER_IMAGE }}
           tags: ${{ steps.docker_metadata.outputs.tags }}
           platforms: linux/arm64
