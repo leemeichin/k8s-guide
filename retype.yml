@@ -6,7 +6,6 @@ editor:
   enabled: false
 branding:
   title: Kubernetes Guide
-  label: Docs
 links:
 - text: Home
   icon: home
