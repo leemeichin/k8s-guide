@@ -1,9 +1,4 @@
----
-icon: light-bulb
-order: -9999
----
-
-# :icon-light-bulb: What's in a Manifest
+# What's in a Manifest
 
 Now we are firmly in the territory of Kubernetes, it's time to take a brief interlude to understand what a manifest is. If you already understand all of this, skip ahead clever clogs. :wink:
 
