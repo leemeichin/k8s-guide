@@ -123,7 +123,7 @@ By default, a service isn't available to the internet at large unless it has an 
 
 The Helm chart already did all of the heavy lifting, so all that is required to make the service available is to create an `Ingress` manifest.
 
-```yaml prometheus-stack/grafana-ingress.yml
+```yaml !#12,24-25 prometheus-stack/grafana-ingress.yml
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
