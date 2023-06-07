@@ -28,6 +28,16 @@ Make sure your API token has **read and write** permissions. If you forgot to se
 You will only get one chance to copy the API token, so make sure to put it somewhere safe, like in your password manager.
 !!!
 
+## A domain name
+
+While you'll be able to work fine with pure IP addresses, this guide will work best if you have a domain handy, especially when it comes to setting up LetsEncrypt for SSL certificates. You don't need to use the top-level of your domain, a subdomain will do just fine too.
+
+!!!ghost :pray: I don't have a domain
+Domains cost money, which is not great if you're on a tight budget or sensitive to costs, especially if you don't intend to keep the domain in the long run.
+
+A future version of this guide will provide ready-made subdomains to help out.
+!!!
+
 ## Command line tools
 
 Instructions will vary depending on your operating system, but you'll need the following:
