@@ -1,13 +1,13 @@
-# What's in a Manifest
+# Resources
 
-Now we are firmly in the territory of Kubernetes, it's time to take a brief interlude to understand what a manifest is. If you already understand all of this, skip ahead clever clogs. :wink:
+Now we are firmly in the territory of Kubernetes, it's time to take a brief interlude to understand what a resource config is. If you already understand all of this, skip ahead clever clogs. :wink:
 
 
-## Manifests
+## Resource Configs
 
-A manifest is an `object` that can be written in YAML or JSON but most people use YAML. It represents a `resource` and provides configuration for it.
+A resource config is an `object` that can be written in YAML or JSON but most people use YAML. It represents a `resource` and provides configuration for it.
 
-==- Example deployment manifest
+==- Example deployment resource config
 
 Here's a typical description of a `Deployment` resource:
 
@@ -36,10 +36,10 @@ spec:
             - containerPort: 3000
 ```
 
-This manifest describes a deployment of a hypothetical blog that exposes itself on port `3000`. On its own it's not very useful because nobody on the internet will be able to access it, but Kubernetes will be running it nonetheless. A fully working deploy will be covered in a later chapter.
+This resource config describes a deployment of a hypothetical blog that exposes itself on port `3000`. On its own it's not very useful because nobody on the internet will be able to access it, but Kubernetes will be running it nonetheless. A fully working deploy will be covered in a later chapter.
 ===
 
-Every manifest for every resource will conform to the same structure. They all have an `apiVersion`, `kind`, and `metadata` that can be used to define labels and annotations. 
+Every config for every resource will conform to the same structure. They all have an `apiVersion`, `kind`, and `metadata` that can be used to define labels and annotations. 
 
 ### Labels and annotations
 

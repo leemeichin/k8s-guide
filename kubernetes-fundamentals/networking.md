@@ -1,3 +1,7 @@
+---
+order: -6
+---
+
 # Networking
 
 Workloads in a Kubernetes cluster, by default, will not be accessible from the public internet. In fact, the only thing that _is_ accessible by default is the control plane, as that is required to authenticate with and configure your cluster.

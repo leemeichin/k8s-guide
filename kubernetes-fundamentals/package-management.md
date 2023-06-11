@@ -2,7 +2,7 @@
 order: -1
 ---
 
-# Managing packages
+# Package management
 
 You're probably accustomed to the concept of packages, libraries or modules in your programming language of choice and you might wonder if Kubernetes has something similar.
 
