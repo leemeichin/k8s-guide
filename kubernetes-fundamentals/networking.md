@@ -14,7 +14,7 @@ There is a little more nuance to it than that though, and it's easier to break i
 
 It's typically the _done thing_ to provision servers (K8S cluster nodes included) on private networks, limiting their exposure to the internet as a whole. There are a lot of reasons to do this, but the most intuitively benefician one is for security: if your cluster doesn't have a public IP address then nobody in the public can connect to it.
 
-The process of setting up this kind of network depends on the provider you use and how they've chosen to abstract it. In the world of **:icon-cloud Big Cloud** you'll be messing around with VPCs and Security Groups and who knows what else; in our Hetzner-based setup the YAML configuration included the provisioning of a private network automatically, along with a firewall that heavily restricts access to the control plane. It's not important to know the intimate details all at once, anything relevant will be explained when it presents itself.
+The process of setting up this kind of network depends on the provider you use and how they've chosen to abstract it. In the world of **:icon-cloud: Big Cloud** you'll be messing around with VPCs and Security Groups and who knows what else; in our Hetzner-based setup the YAML configuration included the provisioning of a private network automatically, along with a firewall that heavily restricts access to the control plane. It's not important to know the intimate details all at once, anything relevant will be explained when it presents itself.
 
 Internal networking, particularly within a K8S cluster, can be as complicated as you want it to be. The default setup is good enough for us though.
 

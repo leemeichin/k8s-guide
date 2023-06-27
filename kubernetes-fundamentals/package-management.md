@@ -28,7 +28,7 @@ If you're interested in creating a custom chart and want to know how to do it, d
 
 ## [Operators](https://operatorhub.io/)
 
-Operators follow a pattern proposed by Kubernetes and add extra automation capabilities to a cluster. An operator will typically come with a collection of Custom Resources that you will use to describe what you want to do, and it is then the job of the operator to make that happen. One example of this is an operator that that reads the labels and annotations of `Ingress` objects to set up SSL or configure Nginx parameters, but you can also have operators that automatically restart your depoloyments if an environment variable or secret is updated.
+Operators follow a pattern proposed by Kubernetes and add extra automation capabilities to a cluster. An operator will typically come with a collection of Custom Resources that you will use to describe what you want to do, and it is then the job of the operator to make that happen. One example of this is an operator that that reads the labels and annotations of `Ingress` objects to set up SSL or configure Nginx parameters, but you can also have operators that automatically restart your deployments if an environment variable or secret is updated.
 
 In the simplest scenarios an operator may feel a bit like a package, not unlike a Helm chart, as they too can automate the process of painstakingly writing dozens of YAML configurations. They're not mutually exclusive though and depending on the complexity and scope of an operator, you might still find a Helm chart that provides an out-of-the-box setup for you.
 
