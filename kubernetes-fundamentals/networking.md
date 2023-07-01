@@ -95,4 +95,4 @@ Even if a service is public, it's likely to be authenticated in other ways, mayb
 
 ### Hosting your websites and public APIs
 
-This guide is hosted as a static website on Kubernetes. You can check the Dockerfile and CI workflow on [** :icon-mark-github: Github**](https://github.com/leemeichin/k8s-guide).
+This guide is hosted as a static website on Kubernetes. You can check the Dockerfile and CI workflow on [**:icon-mark-github: Github**](https://github.com/leemeichin/k8s-guide).
