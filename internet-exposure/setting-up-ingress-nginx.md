@@ -120,3 +120,5 @@ The final step is to point the hostname you chose to the load balancer's IP addr
 Unfortunately that setup is totally dependent on your domain provider, but the values you need from the load balancer will look like this:
 
 ![A screenshot of the load balancer page in Hetzner Cloud](/assets/lb.png)
+
+Once you've confirmed the changes to your DNS you may have to wait a little while for it to propagate, at which point it's time to move on to dealing with SSL encryption.
