@@ -13,7 +13,7 @@ The easiest way to set up ingress-nginx is to use Helm, which will take much of 
 In practical terms, you'll get a new load balancer on the cloud side, and everything you expose to the internet on Kubernetes will go through Nginx.
 
 !!!info :loudspeaker: Get a domain name!
-It will be difficult--if not impossible--to continue with this chapter if you don't have a domain name. You can find one for cheap at [gandi.net](https://gandi.net), [namecheap](https://www.namecheap.com) or [GoDaddy](https://www.godaddy.com) to name a few.
+It will be difficult--if not impossible--to continue with this chapter if you don't have a domain name. If you're already working with Hetzner Cloud then you can register a domain [directly through them](https://www.hetzner.com/domainregistration) but it may not be the cheapest option. [CloudFlare](https://www.cloudflare.com) are a great alternative if you are more conscious of price.
 !!!
 
 ## Requirements
@@ -117,4 +117,6 @@ The ingress controller will update with this config once it's applied.
 
 The final step is to point the hostname you chose to the load balancer's IP address, which you can get from the Hetzner Cloud console in the Load Balancers section. You'll need to create an A record, but you can also add an AAAA record for the IPv6 address you will have been provided.
 
-(TODO: more description)
+Unfortunately that setup is totally dependent on your domain provider, but the values you need from the load balancer will look like this:
+
+![A screenshot of the load balancer page in Hetzner Cloud](/assets/lb.png)
