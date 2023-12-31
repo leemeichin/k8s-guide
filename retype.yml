@@ -2,6 +2,10 @@ input: .
 output: .retype
 url: https://kubernetes-guide.leemeichin.com
 cname: false
+search:
+  maxResults: 10
+  minChars: 3
+  mode: partial
 editor:
   enabled: false
 edit:
@@ -12,15 +16,21 @@ branding:
   label: beta
   colors:
     label:
-      text: '#000000'
-      background: '#edab26'
+      text: "#000000"
+      background: "#edab26"
 links:
-- text: Home
-  icon: home
-  link: https://kubernetes-guide.leemeichin.com
-- text: Github
-  icon: mark-github
-  link: https://github.com/leemeichin/k8s-guide
-  target: blank
+  - text: Home
+    icon: home
+    link: https://kubernetes-guide.leemeichin.com
+  - text: Github
+    icon: mark-github
+    link: https://github.com/leemeichin/k8s-guide
+    target: blank
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
+# Pro only features (won't show in prod unless purchased)
+poweredByRetype: false
+breadcrumb:
+  enabled: true
+  home: ":icon-home:"
+  separator: ":icon-dot:"
