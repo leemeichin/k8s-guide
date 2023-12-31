@@ -2,6 +2,9 @@ input: .
 output: .retype
 url: https://kubernetes-guide.leemeichin.com
 cname: false
+integrations:
+  plausible:
+    domain: kubernetes-guide.leemeichin.com
 search:
   maxResults: 10
   minChars: 3
