@@ -5,7 +5,7 @@ description: How to quickly and easily set up an autoscaling Kubernetes cluster 
 ---
 
 # Kubernetes in No Time At All
-![a cluster of servers in the style of corporate memphis - although it's not really corporate memphis, stupid AI](./assets/banner.png)
+![a cluster of mainframe servers stretching into a vibrant purple sunset; imagine synthwave blasting in the background](./assets/banner.png)
 
 !!!warning :construction: Work in Progress
 This guide is currently a work in progress and far from complete. Watch this space as more chapters are added!
