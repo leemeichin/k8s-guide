@@ -4,7 +4,7 @@ icon: home
 description: How to quickly and easily set up an autoscaling Kubernetes cluster on Hetzner Cloud
 ---
 
-# Kubernetes in No Time At All
+# Kubernetes the Easy Way
 ![a cluster of mainframe servers stretching into a vibrant purple sunset; imagine synthwave blasting in the background](./assets/banner.png)
 
 !!!warning :construction: Work in Progress
