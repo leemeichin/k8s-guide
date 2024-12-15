@@ -15,7 +15,7 @@ edit:
   repo: https://github.com/leemeichin/k8s-guide/edit
   label: Suggest an edit
 branding:
-  title: Kubernetes Guide
+  title: K8S
   label: beta
   colors:
     label:
