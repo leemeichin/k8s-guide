@@ -1,10 +1,10 @@
 input: .
 output: .retype
-url: https://kubernetes-guide.leemeichin.com
+url: https://k8s.leemeichin.com
 cname: false
 integrations:
   plausible:
-    domain: kubernetes-guide.leemeichin.com
+    domain: k8s.leemeichin.com
 search:
   maxResults: 10
   minChars: 3
@@ -24,7 +24,7 @@ branding:
 links:
   - text: Home
     icon: home
-    link: https://kubernetes-guide.leemeichin.com
+    link: https://k8s.leemeichin.com
   - text: Github
     icon: mark-github
     link: https://github.com/leemeichin/k8s-guide
