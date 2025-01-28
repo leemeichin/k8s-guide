@@ -1,3 +1,4 @@
 order: -5
 icon: database
 label: Database Management
+visibility: hidden

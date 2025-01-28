@@ -14,11 +14,11 @@ Certbot makes it effortless to provision TLS certificates for services in your c
 
 As with other things that rely on Helm, the process is pretty consistent.
 
--[x] Add the cert-manager helm repo
--[x] Configure the values for the chart
--[x] Create the `ClusterIssuer` resource
--[x] Install the chart
--[x] Apply the K8S config
+- [x] Add the cert-manager helm repo
+- [x] Configure the values for the chart
+- [x] Create the `ClusterIssuer` resource
+- [x] Install the chart
+- [x] Apply the K8S config
 
 ## Add the Helm chart repository
 

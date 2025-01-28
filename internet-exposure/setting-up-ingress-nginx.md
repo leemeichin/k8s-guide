@@ -13,7 +13,7 @@ The easiest way to set up ingress-nginx is to use Helm, which will take much of 
 In practical terms, you'll get a new load balancer on the cloud side, and everything you expose to the internet on Kubernetes will go through Nginx.
 
 !!!info :loudspeaker: Get a domain name!
-It will be difficult--if not impossible--to continue with this chapter if you don't have a domain name. If you're already working with Hetzner Cloud then you can register a domain [directly through them](https://www.hetzner.com/domainregistration) but it may not be the cheapest option. [CloudFlare](https://www.cloudflare.com) are a great alternative if you are more conscious of price.
+It will be difficult--if not impossible--to continue with this chapter if you don't have a domain name. [CloudFlare](https://www.cloudflare.com) is a great choice and they sell domains at cost, which means they don't add more to the price to make a profit.
 !!!
 
 ## Requirements
