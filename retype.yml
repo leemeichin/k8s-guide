@@ -13,7 +13,7 @@ edit:
   label: Suggest an edit
 branding:
   title: KubeKitten Guide
-  label: V1
+  label: V0
   colors:
     label:
       text: "#000000"

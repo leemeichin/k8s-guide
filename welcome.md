@@ -7,7 +7,7 @@ description: How to quickly and easily set up an autoscaling Kubernetes cluster 
 # KubeKitten Guide
 ![A cluster of mainframe servers being guarded by cute, AI generated kittens. Meow.](/assets/banner.jpg)
 
-!!!light V1, hot off the press!
+!!!light V0, hot off the press!
 The guide is fresh out of beta and while still in its infancy somewhat, is fully ready for use. It'll take you all the way to running a full-blown Kubernetes cluster with SSL support and automatic domain management.
 
 From then on, it's a simple matter of choosing what to deploy! :rocket:
