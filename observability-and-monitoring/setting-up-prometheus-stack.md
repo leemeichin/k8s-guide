@@ -107,7 +107,7 @@ You can put this file anywhere; personally I keep them in one folder to make it 
 
 ## Reveal Grafana to the internet
 
-Nothing you've deployed is publicly accessible so far, so assuming you've successfully worked through [**:icon-globe: Internet Exposure**](/internet-exposure), you should have enough in place to change that.
+Nothing you've deployed is publicly accessible so far, so assuming you've successfully worked through [**:icon-globe: Internet Exposure**](/internet-exposure/whats-in-a-deployment), you should have enough in place to change that.
 
 !!!info :shushing_face: Keeping it secret
 This step is optional and if you prefer to keep your Grafana deploy private, you can access it through kubectl's port-forwarding mechanism instead. This will expose Grafana at `http://localhost:3000`.
@@ -161,8 +161,4 @@ Speaking of applying configuration, do that, changing the path to the file if yo
 kubectl apply -f prometheus-stack/grafana-ingress.yml
 ```
 
-### Update your DNS
-
-Depending on your choice of name, this is as simple as adding either a CNAME or A record to your DNS zonefile. For example, `grafana.yourdomain.com` or `grafana.internal.yourname.com` could work.
-
-Once you're done, go ahead and visit the domain. You should be able to log in with the secret you created earlier.
+After a moment, and provided you completed the steps to set up [`external-dns`](/internet-exposure/managing-your-dns) and [`cert-manager`](/internet-exposure/installing-certbot), you should be able to access Grafana at `https://grafana.your-domain.com`. If you can't see it yet, don't worry! DNS changes can take a minute to propagate.
