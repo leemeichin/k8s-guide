@@ -14,15 +14,15 @@ You'll receive **€20** in credits which will cover the hosting of this cluster
 
 ## Cost breakdown
 
-Assuming you follow the configuration in the guide (prices correct at the time of writing):
+Assuming you follow the configuration in the guide (prices correct at the time of writing and exclude VAT; last updated 2025/01/29):
 
 | Resource                          | Quantity  | Per Unit | Total Per Month                    |
 |-----------------------------------|----------:|---------:|-----------------------------------:|
-| CAX11 ARM Server (4GB RAM/2 vCPU) | 2 (max 3) | €4.55    | €9.10 (max €13.65)                 |
-| Load balancer                     | 1         | €6.47    | €6.47                              |
-| Storage volume (10GB)             | 1         | €0.53    | €0.53                              |
-|                                   |           |          | **<ins>€16.10 (max €20.65)</ins>** |
+| CAX11 ARM Server (4GB RAM/2 vCPU) | 3         | €3.79    | €11.37                             |
+| Load balancer                     | 1         | €5.39    | €5.39                              |
+| Storage volume (10GB)             | 1         | €0.44    | €0.44                              |
+|                                   |           |          | **<ins>€13.41 (max €17.20)</ins>** |
 
-This is based on running a simple autoscaling cluster with one server for the control plane, and a worker pool with a minimum of one server and a maximum of two. The storage volume is for the private Docker registry, and the load balancer is to expose services in the worker pool to the internet.
+This is based on running a simple autoscaling cluster with one server for the control plane, and a worker pool with a maximum of two servers.
 
 Of course, you can expect the breakdown to change if you want a larger autoscaling capacity.

@@ -1,10 +1,7 @@
 input: .
 output: .retype
-url: https://k8s.leemeichin.com
+url: https://guide.kubekitten.com
 cname: false
-integrations:
-  plausible:
-    domain: k8s.leemeichin.com
 search:
   maxResults: 10
   minChars: 3
@@ -15,8 +12,8 @@ edit:
   repo: https://github.com/leemeichin/k8s-guide/edit
   label: Suggest an edit
 branding:
-  title: K8S
-  label: beta
+  title: KubeKitten Guide
+  label: V1
   colors:
     label:
       text: "#000000"
@@ -24,7 +21,7 @@ branding:
 links:
   - text: Home
     icon: home
-    link: https://k8s.leemeichin.com
+    link: https://guide.kubekitten.com
   - text: Github
     icon: mark-github
     link: https://github.com/leemeichin/k8s-guide

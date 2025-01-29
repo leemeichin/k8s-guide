@@ -4,12 +4,8 @@ icon: home
 description: How to quickly and easily set up an autoscaling Kubernetes cluster on Hetzner Cloud
 ---
 
-# Kubernetes the Easy Way
-![a cluster of mainframe servers stretching into a vibrant purple sunset; imagine synthwave blasting in the background](./assets/banner.png)
-
-!!!warning :construction: Work in Progress
-This guide is currently a work in progress and far from complete. Watch this space as more chapters are added!
-!!!
+# KubeKitten Guide
+![A cluster of mainframe servers being guarded by cute, AI generated kittens. Meow.](/assets/banner.jpg)
 
 Have you worked with Kubernetes but never really know how to manage your own cluster? Have you only experienced it at work, in the cloud? Or maybe you're completely new to it and want to know where to start.
 
